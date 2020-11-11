@@ -1,0 +1,86 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    cursor: url(images/target.png) 20 20, grab;
+    
+  
+}
+.home {
+    position: relative;
+    width: 25%;
+    top: 16%;
+    left: 40%;
+}
+.imgh {
+    width: 100%
+}
+.meee1 {
+    position: absolute;
+    right: 20%;
+    bottom: 0%;
+    width: 300px;
+    z-index: 3;
+    user-select: none;
+    
+}
+.me {
+  
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bcd-gun-roomm.jpg);
+    background-size: cover;
+    user-select: none;
+    background-position: center;
+}
+.they {
+    transition: transform 0.1s;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    transform-origin: bottom;
+    user-select: none;
+    z-index: 6;
+    padding: 30px;
+    margin: -30px 0px 0px -30px;
+}
+.blood {
+    position: absolute;
+    left: -30%;
+    width: 20%;
+}
+.blood2 {
+    position: absolute;
+    left: 41%;
+    top: 2%;
+    width: 20%;
+}
+.flips {
+    transform: rotateX(-90deg);
+}
+.start {
+    position: absolute;
+    top: 34%;
+    left: 32%;
+    width: 30%;
+    height: 20%;
+    font-size: 100px
+}
+.meee11 {
+    position: absolute;
+    left: -50%;
+}
+.again {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    z-index: 5;
+    height: 3rem;
+    width: 3rem;
+    background-color: transparent;
+}
+.flash {
+    filter: brightness(3.5)
+}
